@@ -1,0 +1,12 @@
+{
+  "extends": "@tsconfig/node-lts/tsconfig.json",
+  "compilerOptions": {
+    "declaration": true,
+    "outDir": "dist",
+    "rootDir": "src",
+    "baseUrl": ".",
+    "module": "NodeNext",
+    "target": "ESNext",
+    "lib": ["ESNext", "DOM"]
+  }
+}
